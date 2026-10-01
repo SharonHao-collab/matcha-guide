@@ -2,7 +2,7 @@
 
 This project is a small interactive experience for people who have never made a matcha latte. When someone clicks the matcha recipe, the experience guides them through the recipe one step at a time.
 
-## Live Site
+## Live Web
 
 [Open the interactive Matcha Guide](https://first-matcha-latte-guide.xh2749.chatgpt.site)
 
