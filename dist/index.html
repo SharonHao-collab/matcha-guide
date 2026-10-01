@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A simple, step-by-step iced matcha latte guide for beginners."
+    />
+    <title>Your First Matcha Latte</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316322a'/%3E%3Cpath d='M8 12h16l-2 12H10z' fill='%23b9d98c'/%3E%3Cpath d='M11 9c2-2 8-2 10 0' fill='none' stroke='%23f4f0e7' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <p class="brand">MATCHA BREAK</p>
+        <p class="time-note">One drink · about 5 minutes</p>
+      </header>
+
+      <section class="intro" aria-labelledby="page-title">
+        <p class="eyebrow">Beginner recipe 01</p>
+        <h1 id="page-title">Your first iced<br />matcha latte.</h1>
+        <p class="intro-copy">
+          A calm, creamy starting point. You will make one glass, taste it,
+          and learn how to adjust it for yourself.
+        </p>
+      </section>
+
+      <section class="recipe-card" id="recipe-card" aria-labelledby="recipe-title">
+        <div class="card-number" aria-hidden="true">01</div>
+        <div class="card-content">
+          <p class="card-label">Start here</p>
+          <h2 id="recipe-title">Lightly sweetened iced matcha latte</h2>
+          <p>Soft, refreshing, and forgiving for a first try.</p>
+          <button class="primary-button" id="start-button" type="button">
+            Make this recipe <span aria-hidden="true">→</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="guide" id="guide" aria-live="polite" hidden>
+        <div class="guide-header">
+          <div>
+            <p class="eyebrow" id="step-count">Step 1 of 6</p>
+            <h2 id="step-title">Gather your ingredients</h2>
+          </div>
+          <button class="text-button" id="close-button" type="button">Close guide</button>
+        </div>
+
+        <div class="progress" aria-label="Recipe progress">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+
+        <article class="step-panel" id="step-panel" tabindex="-1">
+          <p class="step-kicker" id="step-kicker">Before you begin</p>
+          <div id="step-content"></div>
+        </article>
+
+        <div class="guide-actions">
+          <button class="secondary-button" id="back-button" type="button">Back</button>
+          <button class="primary-button" id="next-button" type="button">Next step</button>
+        </div>
+      </section>
+
+      <footer>
+        <p>Taste first. Adjust second. That is how you learn your matcha.</p>
+      </footer>
+    </main>
+  </body>
+</html>
