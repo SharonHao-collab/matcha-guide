@@ -4,7 +4,7 @@ This project is a small interactive experience for people who have never made a 
 
 ## Live Site
 
-The public live-site link will be added after deployment.
+[Open the interactive Matcha Guide](https://first-matcha-latte-guide.xh2749.chatgpt.site)
 
 ## Main Interaction
 
@@ -43,4 +43,3 @@ I tested the main path by clicking **Make this recipe** and moving through all s
 The finished interaction mostly matched my intention: a beginner can click one recipe and follow a clear sequence instead of reading all the instructions at once. The forward and back controls worked, the progress changed with each step, and the final steps helped the learner taste and adjust the drink. The first test also showed that a working interaction can still have a presentation problem. Fixing the recipe card taught me to compare what I expected with what was actually visible rather than assuming the code behaved correctly.
 
 AI helped turn the idea into a small design, organize the recipe into steps, write the first version of the code, and identify a focused CSS fix. I still needed to decide what the experience should teach, which ingredients and adjustments belonged in the first version, and whether the result matched my intention. One remaining uncertainty is how easily a person with no matcha experience can follow the guide without outside help. A useful next test would be to observe one beginner using the site and record where they hesitate or need clarification.
-
